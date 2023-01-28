@@ -349,6 +349,7 @@ body{
     grid-template-columns: 2fr 3fr;
     background-color: #ffa94d;
     border-radius: 10px;
+    box-shadow: 4px 8px 22px 0px #6583bb;
 }
 
 .founder .container .card-img{
@@ -360,4 +361,22 @@ body{
 .founder .container .card-img img{
     width: 100%;
     height: 100%;
+}
+
+.founder .container .card-content {
+    padding: 2rem;
+}
+
+.founder .container .card-content h1{
+    font-size: 4rem;
+    color: rgb(145, 162, 196);
+    font-family: 'Roboto-Light',sans-serif;
+}
+
+
+.founder .container .card-content .lead{
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+    line-height: 1.8;
+    color: rgb(28, 40, 97);
 }
